@@ -1,5 +1,5 @@
 {
-    "name": "mservice/payment",
+    "name": "dnsoft/mservice-payment",
     "description": "MoMo Package to speed up the integration process with merchants.",
     "keywords": [
         "mservice",
@@ -19,7 +19,7 @@
     ],
     "type": "library",
     "require": {
-		"php": ">=7.2",
+	"php": ">=7.2",
         "phpseclib/phpseclib": "^2",
         "monolog/monolog": "*",
         "bramus/monolog-colored-line-formatter": "^3.0",
@@ -33,7 +33,5 @@
         "psr-4": {
             "MService\\Payment\\": "src/"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
